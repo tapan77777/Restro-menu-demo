@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fee2b3; /* Light yellow background */
+    color: #3d3d3d; /* Dark gray text */
+}
+
+#menu {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff; /* White background for menu */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    background-color: #f6f6f6; /* Light gray background for items */
+}
+
+li:hover {
+    transform: scale(1.05);
+}
+
+.indian-dish {
+    border-left: 8px solid #e44d26; /* Saffron color for left border */
+}
+
+h3 {
+    margin: 0 0 10px;
+    color: #e44d26; /* Saffron color for item name */
+}
+
+p {
+    margin: 0;
+    color: #666; /* Dark gray text for description and price */
+}
+
+.price {
+    font-weight: bold;
+    color: #e44d26; /* Saffron color for price */
+}
